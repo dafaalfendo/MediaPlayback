@@ -47,6 +47,8 @@ class Sample {
     private String mUri;
     private String mAlbumArtID;
 
+    public Sample() {
+    }
 
     private Sample(int sampleID, String composer, String title, String uri, String albumArtID) {
         mSampleID = sampleID;
@@ -242,4 +244,5 @@ class Sample {
     void setAlbumArtID(String albumArtID) {
         mAlbumArtID = albumArtID;
     }
+
 }
